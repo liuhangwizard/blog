@@ -1,0 +1,21 @@
+.vb-focus {
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    color: #99a2ae;
+    padding: 0 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+    .f-toast {
+        padding-right: 10px;
+    }
+    .f-link {
+        cursor: pointer;
+        color: #99a2ae;
+        transition: 0.3s color ease;
+    }
+    .f-link:hover {
+        color: #00a1e6;
+    }
+}

@@ -1,0 +1,49 @@
+.vb-main-preview {
+    .preview-catagory{
+        padding: 4px 0px;
+        .c-item{
+            float: left;
+            width: 33.33%;
+            box-sizing: border-box;
+            padding: 4px 0px;
+            font-size: 16px;
+            .i-center{
+                width: 100%;
+                padding: 5px;
+                box-sizing: border-box;
+                transition: opacity 0.2s ease;
+                .i-title,.i-count{
+                    height: 60px;
+                    line-height: 60px;
+                    text-align: center;
+                    width: 100%;
+                    display: inline-block;
+                    text-align: center;
+                }
+                .i-title{
+                    color: #222222;
+                    width: calc(100% - 70px);
+                    cursor: pointer;
+                    transition:color 0.3s ease;
+                }
+                .i-title:hover{
+                    color:#666666;
+                }
+                .i-count{
+                    color:#eb7350;
+                    user-select: none;
+                    width: 70px;
+                    box-sizing: border-box;
+                    border-left: 1px solid #eeeeee;
+                }
+            }
+            .i-center-shadow{
+                opacity: 0.35;
+            }
+            
+        }
+        .c-item:nth-child(3n-1){
+            padding: 4px 8px;
+        }
+    }
+}

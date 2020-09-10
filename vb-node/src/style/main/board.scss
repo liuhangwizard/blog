@@ -1,0 +1,65 @@
+.vb-main-board {
+    .b-back {
+        height: 64px;
+        width: 100%;
+        background-image: url('https://vb-blog.oss-cn-hangzhou.aliyuncs.com/blog/image/back.jpg');
+        background-position: bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 2px;
+        border-top-right-radius: 2px;
+        animation: vbOpcity 6s linear infinite;
+    }
+    .b-wizard {
+        .w-main {
+            text-align: center;
+            width: 66px;
+            margin: 0 auto;
+            padding: 16px;
+            .m-avatar {
+                height: 66px;
+                display: block;
+                border: 1px solid #a7d1fe;
+                box-shadow: 0 0 6px rgba(167, 219, 251, 1);
+                padding: 2px;
+            }
+            .m-name {
+                font-size: 12px;
+                color: #6f7480;
+            }
+        }
+    }
+    .b-data {
+        text-align: center;
+        // border-bottom: 1px solid #eeeeee;
+        margin: 0px 12px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-bottom: 16px;
+        .d-item {
+            .i-value {
+                font-size: 14px;
+                font-weight: bold;
+                color: #00a1e6;
+            }
+            .i-name {
+                font-weight: bold;
+                font-size: 13px;
+                color: #99a2ad;
+                padding-top: 8px;
+            }
+        }
+    }
+}
+
+@keyframes vbOpcity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 1;
+    }
+}

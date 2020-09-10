@@ -1,0 +1,40 @@
+.vb-article-detail {
+    .text-content {
+        margin-top: 8px;
+        color: #222;
+        padding: 18px 20px;
+        box-sizing: border-box;
+        line-height: 1.6;
+        a {
+            color: #eb7350;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            color: #00a1e6;
+        }
+        h1:first-child,
+        h2:first-child,
+        h3:first-child,
+        h4:first-child,
+        h5:first-child,
+        h6:first-child {
+            margin-top: 0px;
+        }
+        img {
+            box-shadow: rgba(0, 0, 0, .2) 0 0 5px 0;
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        pre {
+            background-color: #F2F4F5!important;
+            padding: 12px !important;
+            border-radius: 2px;
+        }
+    }
+
+}

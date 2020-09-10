@@ -1,0 +1,87 @@
+.vb-preview-content {
+    .c-author {
+        display: flex;
+        .au-avatar {
+            //border-radius: 50%;
+            .a-image {
+                height: 50px;
+                width: 50px;
+                display: block;
+                border: 1px solid #a7d1fe;
+                box-shadow: 0 0 2px rgba(167, 219, 251, 1);
+                padding: 2px;
+                //border-radius: 50%;
+            }
+        }
+        .au-basic {
+            margin-left: 16px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: flex-start;
+            .b-name {
+                color: #222222;
+                font-size: 14px;
+            }
+            .b-date{
+                color: #99a2ae;
+                font-size: 12px;
+            }
+        }
+    }
+    .c-article {
+        margin: 12px 0px;
+        .a-title {
+            font-size: 17px;
+            color: #00a1e6;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+        .a-title:hover {
+            color: #eb7350;
+        }
+        .a-info {
+            .i-item {
+                color: #99a2ae;
+                font-size: 14px;
+                margin-left: 6px;
+                span {
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+    .c-main {
+        //height: 250px;
+        border: 1px solid #e5e9ee;
+        border-radius: 3px;
+        .m-back {
+            border-top-left-radius: 3px;
+            border-top-right-radius: 3px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            height: 160px;
+        }
+        .m-text {
+            padding: 0px 20px;
+            .t-content {
+                color: #99a2aa;
+                font-size: 12px;
+                padding: 12px 0px 18px 0px;
+            }
+            .t-tag {
+                padding-bottom: 12px;
+                i {
+                    color: #99a2aa;
+                }
+                a {
+                    cursor: pointer;
+                    color: #eb7350;
+                    font-size: 14px;
+                    margin-left: 6px;
+                }
+            }
+        }
+    }
+}

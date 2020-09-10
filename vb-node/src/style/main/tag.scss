@@ -1,0 +1,19 @@
+.vb-main-tag {
+    .panel-center {
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        .tag-item {
+            color: #222;
+            background-color: #fbf9f6;
+            padding: 2px 8px;
+            border: 1px solid #e3e8e9;
+            margin: 0px 4px 4px 0px;
+            cursor: pointer;
+            transition:all 0.3s ease;
+        }
+        .tag-item:hover{
+            color: #eb7350;
+        }
+    }
+}

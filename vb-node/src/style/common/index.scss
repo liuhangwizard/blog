@@ -1,0 +1,152 @@
+.vb-flexstart {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.vb-flexcenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vb-flexstartrow {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.vb-flexbetween {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vb-flexevenly {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.vb-clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.board-content {
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.common-item{
+    margin-top: 8px;
+    padding: 18px;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    margin: 0px;
+    font-size: 15px;
+    background-color: #f7f7f7;
+    font-family: PingFang SC, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Microsoft YaHei, Source Han Sans SC, Noto Sans CJK SC, WenQuanYi Micro Hei, sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 1.2px 3px rgba(26, 26, 26, .1);
+    box-shadow: 0 1.5px 3px rgba(26, 26, 26, .1);
+    padding: 0px 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    .h-main {
+        display: flex;
+        flex-direction: row;
+        .h-logo {
+            height: 50px;
+            line-height: 50px;
+            color: #333;
+            a{
+                color: #333;
+            }
+            font-size: 21px;
+        }
+        ul {
+            margin: 0px;
+            padding: 0px;
+        }
+        li {
+            list-style-type: none;
+        }
+        .h-tabs {
+            display: flex;
+            margin-left: 18px;
+            .h-item {
+                text-align: center;
+                padding: 0px 18px;
+                a {
+                    display: inline-block;
+                    padding: 14px 0;
+                    line-height: 22px;
+                    cursor: pointer;
+                    transition: color .2s ease;
+                    color: #000;
+                }
+                a:hover {
+                    color: #666;
+                }
+            }
+        }
+    }
+    .h-search {
+        width: 300px;
+        height: 32px;
+        box-sizing: border-box;
+        display: flex;
+        background: #f6f6f6;
+        padding: 4px 0px 4px 12px;
+        align-items: center;
+        border-radius: 3px;
+        border: 1px solid transparent;
+        transition: 0.8s ease;
+        .s-content {
+            flex: auto;
+            height: 24px;
+            line-height: 24px;
+            border: none;
+            background: transparent;
+            resize: none;
+            padding: 0px;
+            outline: none;
+        }
+        .s-main {
+            margin-left: 10px;
+            padding: 0 10px;
+            cursor: pointer;
+            background: transparent;
+            border-color: transparent;
+            outline: none;
+            i {
+                font-size: 18px;
+                opacity: 0.7;
+            }
+        }
+    }
+    .h-focus {
+        background: #fff;
+        border-color: #859061;
+    }
+}

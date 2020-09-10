@@ -1,0 +1,14 @@
+syntax = "proto3";
+package react_render;
+message RenderRequest{
+    string store=1;
+}
+message RenderResponse{
+    string HTML=1;
+}
+service RenderService{
+    rpc getReactHTMLContent(RenderRequest) returns (RenderResponse){};
+}
+
+
+  

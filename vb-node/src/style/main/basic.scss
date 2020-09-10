@@ -1,0 +1,23 @@
+.vb-main-basic {
+    .panel-center {
+        .b-item {
+            height: 45px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            white-space: nowrap;
+            border-bottom: 1px solid #f0f0f0;
+            .i-icon {
+                font-size: 22px;
+            }
+            .i-title {
+                font-size: 14px;
+                margin-left: 8px;
+                color: #222222;
+            }
+        }
+        .b-item:last-child {
+            border-bottom: none !important;
+        }
+    }
+}

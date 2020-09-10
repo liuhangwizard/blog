@@ -1,0 +1,29 @@
+.vb-main-preview {
+    .preview-archive{
+
+        .c-title{
+            font-size: 19px;
+            color: #99a2ae;
+        }
+        .c-item{
+            padding: 2px 0px;
+            .i-date{
+                margin-right: 12px;
+                display: inline-block;
+                min-width: 100px;
+            }
+            .i-link{
+                cursor: pointer;
+                color:#222222;
+                transition: 0.3s color ease;
+            }
+            .i-link:hover{
+                color:#eb7350;
+            }
+
+        }
+        .a-content:last-child{
+            margin-bottom: 8px;
+        }
+    }
+}

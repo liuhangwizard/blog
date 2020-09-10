@@ -1,0 +1,14 @@
+.vb-link{
+    a{
+        color: #99a2ae;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+    a:hover{
+        color: #555;
+    }
+    text-align: center;
+    color: #99a2ae;
+    font-size: 13px;
+    padding: 20px;
+}

@@ -1,0 +1,42 @@
+.vb-section {
+    .panel-center {
+        color: #222222;
+        font-size: 12px;
+        p {
+            padding: 0px;
+            margin: 0px;
+        }
+        .recent-item {
+            padding: 6px 0px;
+            border-bottom: 1px solid #e5e9ee;
+            .r-title {
+                margin-bottom: 10px;
+                cursor: pointer;
+                a{
+                    color: #222222;
+                    transition: color 0.3s ease;
+                }
+                a:hover{
+                    color: #eb7350;
+                }
+                
+            }
+            .r-basic {
+                .b-item {
+                    margin-right: 12px;
+                    font-size: 12px;
+                    span {
+                        margin-left: 4px;
+                    }
+                }
+            }
+        }
+        .recent-item:first-child {
+            padding: 0px 0px 6px 0px !important;
+        }
+        .recent-item:last-child {
+            padding: 6px 0px 0px 0px !important;
+            border-bottom: none !important;
+        }
+    }
+}
